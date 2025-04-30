@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .default-bg {
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Soft light gradient */
+  }
+  
+  /* Vibrant color backgrounds */
+  .hot-bg {
+    background: linear-gradient(135deg, #f12711, #f5af19); /* Red-orange gradient */
+  }
+  
+  .warm-bg {
+    background: linear-gradient(135deg, #fceabb, #f8b500); /* Yellow gradient */
+  }
+  
+  .mild-bg {
+    background: linear-gradient(135deg, #a1ffce, #faffd1); /* Soft green-blue gradient */
+  }
+  
+  .cold-bg {
+    background: linear-gradient(135deg, #83a4d4, #b6fbff); /* Icy blue gradient */
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 420px;
+    width: 90%;
+    z-index: 1;
+  }
